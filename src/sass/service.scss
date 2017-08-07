@@ -1,0 +1,61 @@
+.service{
+    padding-top:111px;
+    padding-bottom:111px;
+    .content-left{
+      .title{
+        font-size: 23px;
+        font-family: 'Roboto Slab', serif;
+        position: relative;
+        &:after{
+          content: '';
+          position: absolute;
+          height: 3px;
+          width: 28px;
+          background-color: #DEDEDE;
+          bottom: -20px;
+          left: 0;
+        }
+      }
+      .content-detail {
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.4px;
+        color: #474747;
+        line-height: 30px;
+        margin-top:70px;
+      }
+    }
+
+    .content-right{
+      ul{
+        list-style: none;
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      ul li{
+        float: left;
+        overflow: hidden;
+        margin-top: 34px;
+        .head{
+          font-size: 13px;
+          text-transform: uppercase;
+          margin-bottom: 27px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 700;
+          letter-spacing: 1.5px;
+        }
+        .text-grey{
+          font-size: 13px;
+          line-height: 26px;
+          color: #434343;
+        }
+        span{
+          font-size: 30px;
+          margin-bottom: 30px;
+        }
+      }
+
+    }
+}

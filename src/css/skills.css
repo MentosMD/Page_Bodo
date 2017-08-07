@@ -1,0 +1,62 @@
+.skills .content-left {
+  padding-bottom: 59px; }
+  .skills .content-left .title {
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    margin-bottom: 70px; }
+    .skills .content-left .title:after {
+      content: '';
+      position: absolute;
+      height: 3px;
+      width: 28px;
+      background-color: #DEDEDE;
+      bottom: -20px;
+      left: 0; }
+  .skills .content-left .content-detail p {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    color: #474747;
+    line-height: 30px; }
+
+.skills .content-right .skillbar {
+  width: 100%;
+  height: 10px;
+  background: #f6f6f6;
+  position: relative;
+  margin-bottom: 60px;
+  padding: 2px; }
+  .skills .content-right .skillbar .title-head {
+    position: absolute;
+    top: -31px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 13px; }
+  .skills .content-right .skillbar .count-bar {
+    background: #818181;
+    position: relative;
+    height: 100%;
+    width: 0%; }
+  .skills .content-right .skillbar .count-bar .count {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    line-height: 18px;
+    font-size: 14px;
+    right: -20px; }
+    .skills .content-right .skillbar .count-bar .count span {
+      position: absolute;
+      top: -34px;
+      left: -46px;
+      background: #818181;
+      width: 50px;
+      height: 18px; }
+      .skills .content-right .skillbar .count-bar .count span:after {
+        content: '';
+        border-top: 4px solid #818181;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        position: absolute;
+        top: 18px;
+        left: 41%; }

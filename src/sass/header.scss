@@ -1,0 +1,53 @@
+header{
+    height: 943px;
+    background: url(../img/hero1.jpeg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+        .header-top{
+            height: 53px;
+            opacity: 0.8;
+            z-index: 99;
+            border-bottom: 1px solid #f1f1f1;
+            background: white;
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+        }
+        .header-top .logo{
+            height: 100%;
+        }
+        #open-menu{
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-size: 24px;
+            margin-right: 20px;
+        }
+    .heroe-wrapper{
+        height: 277px;
+        width: 322px;
+        position: absolute;
+        top: 30%;
+        outline: 4px double #FFFFFF;
+        padding: 9px 9px 14px 9px;
+        .hero-content{
+            background: rgba(255, 255, 255, 0.8);
+            width: 305px;
+            height: 262px;
+            padding: 75px;
+            text-align: center;
+        }
+        .hero-content .title{
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: 'Roboto Slab', serif;
+            font-size: 36px;
+        }
+        .hero-content .typed{
+            color: #7F8183;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

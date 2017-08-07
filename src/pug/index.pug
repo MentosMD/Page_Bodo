@@ -1,0 +1,81 @@
+doctype html
+html
+    head
+      title Bodo
+      meta(charset="utf-8")
+      meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+      link(rel="shortcut icon" href="../img/favicon.ico")
+      link(href="../css/bootstrap.min.css" rel="stylesheet")
+      link(href="../css/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet")
+      link(href="../css/swiper.min.css" rel="stylesheet")
+      link(href="../css/magnific-popup.css" rel="stylesheet")  
+      link(href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet")
+      link(href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet")
+      link(href="../app/bundle.css" rel="stylesheet")
+      script(src="../js/jquery.js")
+      script(src="../js/bootstrap.js")
+      script(src="../js/swiper.min.js")
+      script(src="../js/typed.min.js")
+      script(src="../js/jquery.magnific-popup.min.js")
+      script(src="../js/appear.js")
+      script(src="../js/common.js")
+    body  
+      section.page-wrapper#page-wrapper
+            .preloader#preloader
+                  .loader#loader
+                       img(src="../img/logo-big.png" )
+            include header.pug
+            
+            .wrap-menu
+                  button.fa.fa-times#btn_hide_menu
+                  nav
+                    ul
+                      li(data-translate="700px" style="transform: translateY(700px);") 
+                         a(href="" data-id="#page-wrapper") Home
+                                  span.line
+                      li(data-translate="850px" style="transform: translateY(850px);") 
+                          a(href="" data-id="#about") About
+                                span.line
+                      li(data-translate="980px" style="transform: translateY(980px);") 
+                          a(href="" data-id="#works") Work
+                                span.line
+                      li(data-translate="1060px" style="transform: translateY(1060px);") 
+                          a(href="" data-id="#service") Services
+                                  span.line
+                      li(data-translate="1150px" style="transform: translateY(1150px);") 
+                          a(href="" data-id="#employment") Employment
+                                span.line
+                      li(data-translate="1200px" style="transform: translateY(1200px);") 
+                          a(href="" data-id="#skills") Skills 
+                                  span.line
+                      li(data-translate="1250px" style="transform: translateY(1250px);") 
+                          a(href="" data-id="#education") Education
+                                  span.line
+                      li(data-translate="1350px" style="transform: translateY(1350px);") 
+                          a(href="" data-id="#testimonial") Testimonial
+                                  span.line
+                      li(data-translate="1420px" style="transform: translateY(1420px);") 
+                          a(href="" data-id="#blog") Blog  
+                                  span.line
+                      li(data-translate="1560px" style="transform: translateY(1560px);") 
+                          a(href="" data-id="#contact") Contact  
+                                  span.line
+            include about.pug
+            
+            include works.pug
+            
+            include service.pug
+            
+            include employment.pug
+            
+            include skills.pug
+            
+            include education.pug
+
+            include testimonial.pug
+
+            include blog.pug
+
+            include contact.pug
+            
+            include footer.pug
